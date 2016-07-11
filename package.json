@@ -6,9 +6,6 @@
   "author": "Oleg Rovenskyi",
   "license": "ISC",
   "scripts": {
-    "postinstall": "npm run typings install && gulp",
-    "start": "gulp serve",
-    "typings": "typings",
     "clean": "gulp clean-ts"
   },
   "devDependencies": {
@@ -21,8 +18,10 @@
     "gulp-tslint": "^5.0.0",
     "gulp-typescript": "^2.13.0",
     "typescript": "^1.8.10",
-    "typings": "^0.8.1",
     "superstatic": "^4.0.2",
     "tslint": "^3.8.1"
+  },
+  "dependencies": {
+    "typing": "^0.1.9"
   }
 }

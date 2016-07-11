@@ -60,7 +60,7 @@ gulp.task('compile-ts', function () {
 gulp.task('clean-ts', function (cb) {
     var typeScriptGenFiles = [
         config.tsOutputPath +'/**/*.js',    // path to all JS files auto gen'd by editor
-        config.tsOutputPath git inti+'/**/*.js.map', // path to all sourcemap files auto gen'd by editor
+        config.tsOutputPath +'/**/*.js.map', // path to all sourcemap files auto gen'd by editor
         '!' + config.tsOutputPath + '/lib'
     ];
 

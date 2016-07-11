@@ -1,0 +1,6 @@
+src/js
+node_modules
+bower_components
+coverage
+npm-debug.log
+*.report.html
